@@ -116,7 +116,7 @@ document.addEventListener("DOMContentLoaded", () => {
           "mailto:conordev0084@gmail.com?subject=Netflix Metadata Analyst Position&body=Hello Dilshod,"
       } else if (this.textContent.includes("GitHub")) {
         // Add your GitHub URL here
-        window.open("https://github.com/yourusername", "_blank")
+        window.open("https://github.com/Conordeveloper0084/Metadata-Rating-and-Content-Analyst-Portfolio", "_blank")
       }
     })
   })
