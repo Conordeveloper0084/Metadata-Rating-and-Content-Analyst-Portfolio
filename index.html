@@ -1,0 +1,602 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Toxirov Dilshod - Metadata Rating Analyst Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-content">
+                <div class="nav-logo">TD</div>
+                <div class="nav-menu">
+                    <button class="nav-link active" data-section="hero">Home</button>
+                    <button class="nav-link" data-section="about">About</button>
+                    <button class="nav-link" data-section="samples">Portfolio</button>
+                    <button class="nav-link" data-section="analysis">Analysis</button>
+                    <button class="nav-link" data-section="methodology">Approach</button>
+                    <button class="nav-link" data-section="contact">Contact</button>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero-section">
+        <div class="hero-overlay"></div>
+        <div class="container hero-content">
+            <div class="hero-text">
+                <h1 class="hero-title">
+                    TOXIROV <span class="hero-highlight">DILSHOD</span>
+                </h1>
+                <p class="hero-subtitle">Metadata Rating Analyst</p>
+                <p class="hero-description">
+                    Specialized in content analysis, classification, and rating for streaming platforms. 
+                    Bringing analytical precision to content metadata and audience targeting.
+                </p>
+                <div class="hero-buttons">
+                    <button class="btn btn-primary" data-section="samples">
+                        <i class="fas fa-play"></i>
+                        View Portfolio
+                    </button>
+                    <button class="btn btn-secondary" data-section="contact">
+                        <i class="fas fa-envelope"></i>
+                        Get In Touch
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about-section">
+        <div class="container">
+            <div class="section-content">
+                <h2 class="section-title">About Me</h2>
+                <div class="about-grid">
+                    <div class="about-text">
+                        <h3 class="about-heading">Why Metadata Analysis?</h3>
+                        <p class="about-paragraph">
+                            As an AI Engineering and Data Science student at PDP University, I've developed a keen eye for pattern
+                            recognition and data classification. My passion for media content combined with analytical thinking
+                            makes me ideally suited for metadata tagging and content rating.
+                        </p>
+                        <p class="about-paragraph">
+                            I understand that accurate metadata is crucial for content discovery, audience targeting, and platform
+                            success. My approach combines technical precision with cultural awareness to deliver metadata that
+                            truly serves both the platform and its users.
+                        </p>
+                        <div class="skills-badges">
+                            <span class="badge">Content Analysis</span>
+                            <span class="badge">Genre Classification</span>
+                            <span class="badge">Age Rating</span>
+                            <span class="badge">Cultural Awareness</span>
+                        </div>
+                    </div>
+                    <div class="about-cards">
+                        <div class="skill-card">
+                            <div class="skill-header">
+                                <i class="fas fa-brain skill-icon"></i>
+                                <h4 class="skill-title">Analytical Thinking</h4>
+                            </div>
+                            <p class="skill-description">
+                                Detail-oriented approach to content analysis with focus on narrative structure, themes, and
+                                audience impact.
+                            </p>
+                        </div>
+                        <div class="skill-card">
+                            <div class="skill-header">
+                                <i class="fas fa-bullseye skill-icon"></i>
+                                <h4 class="skill-title">Precision & Accuracy</h4>
+                            </div>
+                            <p class="skill-description">
+                                Committed to delivering consistent, accurate metadata aligned with platform standards and user
+                                expectations.
+                            </p>
+                        </div>
+                        <div class="skill-card">
+                            <div class="skill-header">
+                                <i class="fas fa-bolt skill-icon"></i>
+                                <h4 class="skill-title">Media Expertise</h4>
+                            </div>
+                            <p class="skill-description">
+                                Deep understanding of global content trends, cultural nuances, and audience preferences across
+                                genres.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Samples -->
+    <section id="samples" class="samples-section">
+        <div class="container">
+            <div class="section-content">
+                <h2 class="section-title">Content Tagging Samples</h2>
+                <p class="section-description">
+                    Detailed analysis and tagging examples demonstrating my approach to content classification and rating
+                </p>
+
+                <div class="samples-grid">
+                    <!-- Sample 1: Stranger Things -->
+                    <div class="sample-card">
+                        <div class="sample-header">
+                            <div class="sample-info">
+                                <h3 class="sample-title">Stranger Things S1E1</h3>
+                                <p class="sample-summary">
+                                    A group of kids in 1980s Indiana search for their missing friend while uncovering supernatural mysteries and government conspiracies.
+                                </p>
+                            </div>
+                            <div class="sample-badges">
+                                <span class="rating-badge">TV-14</span>
+                                <span class="genre-badge">Sci-Fi Horror</span>
+                            </div>
+                        </div>
+                        <div class="sample-content">
+                            <div class="tabs">
+                                <div class="tab-buttons">
+                                    <button class="tab-button active" data-tab="tags-1">Tags</button>
+                                    <button class="tab-button" data-tab="mood-1">Mood</button>
+                                    <button class="tab-button" data-tab="reasoning-1">Analysis</button>
+                                </div>
+                                <div class="tab-content">
+                                    <div id="tags-1" class="tab-panel active">
+                                        <div class="tags-container">
+                                            <span class="tag">supernatural</span>
+                                            <span class="tag">80s nostalgia</span>
+                                            <span class="tag">kids adventure</span>
+                                            <span class="tag">mystery</span>
+                                            <span class="tag">government conspiracy</span>
+                                            <span class="tag">parallel dimensions</span>
+                                        </div>
+                                    </div>
+                                    <div id="mood-1" class="tab-panel">
+                                        <div class="mood-container">
+                                            <i class="fas fa-eye mood-icon"></i>
+                                            <span class="mood-text">Dark & Suspenseful</span>
+                                        </div>
+                                    </div>
+                                    <div id="reasoning-1" class="tab-panel">
+                                        <p class="reasoning-text">
+                                            Contains moderate violence, scary imagery, and mature themes suitable for teens. The 80s setting and child protagonists balance the darker elements.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Sample 2: Squid Game -->
+                    <div class="sample-card">
+                        <div class="sample-header">
+                            <div class="sample-info">
+                                <h3 class="sample-title">Squid Game</h3>
+                                <p class="sample-summary">
+                                    Desperate contestants compete in deadly children's games for a massive cash prize, revealing dark truths about society and human nature.
+                                </p>
+                            </div>
+                            <div class="sample-badges">
+                                <span class="rating-badge">TV-MA</span>
+                                <span class="genre-badge">Thriller Drama</span>
+                            </div>
+                        </div>
+                        <div class="sample-content">
+                            <div class="tabs">
+                                <div class="tab-buttons">
+                                    <button class="tab-button active" data-tab="tags-2">Tags</button>
+                                    <button class="tab-button" data-tab="mood-2">Mood</button>
+                                    <button class="tab-button" data-tab="reasoning-2">Analysis</button>
+                                </div>
+                                <div class="tab-content">
+                                    <div id="tags-2" class="tab-panel active">
+                                        <div class="tags-container">
+                                            <span class="tag">survival</span>
+                                            <span class="tag">violence</span>
+                                            <span class="tag">social commentary</span>
+                                            <span class="tag">betrayal</span>
+                                            <span class="tag">psychological thriller</span>
+                                            <span class="tag">Korean content</span>
+                                        </div>
+                                    </div>
+                                    <div id="mood-2" class="tab-panel">
+                                        <div class="mood-container">
+                                            <i class="fas fa-eye mood-icon"></i>
+                                            <span class="mood-text">Intense & Disturbing</span>
+                                        </div>
+                                    </div>
+                                    <div id="reasoning-2" class="tab-panel">
+                                        <p class="reasoning-text">
+                                            Graphic violence, disturbing imagery, and mature themes require adult audience. Strong social commentary on economic inequality.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Sample 3: Wednesday -->
+                    <div class="sample-card">
+                        <div class="sample-header">
+                            <div class="sample-info">
+                                <h3 class="sample-title">Wednesday</h3>
+                                <p class="sample-summary">
+                                    Wednesday Addams navigates her years as a student at Nevermore Academy, solving supernatural mysteries while dealing with teenage drama.
+                                </p>
+                            </div>
+                            <div class="sample-badges">
+                                <span class="rating-badge">TV-14</span>
+                                <span class="genre-badge">Comedy Horror</span>
+                            </div>
+                        </div>
+                        <div class="sample-content">
+                            <div class="tabs">
+                                <div class="tab-buttons">
+                                    <button class="tab-button active" data-tab="tags-3">Tags</button>
+                                    <button class="tab-button" data-tab="mood-3">Mood</button>
+                                    <button class="tab-button" data-tab="reasoning-3">Analysis</button>
+                                </div>
+                                <div class="tab-content">
+                                    <div id="tags-3" class="tab-panel active">
+                                        <div class="tags-container">
+                                            <span class="tag">gothic</span>
+                                            <span class="tag">teen drama</span>
+                                            <span class="tag">detective mystery</span>
+                                            <span class="tag">supernatural</span>
+                                            <span class="tag">dark comedy</span>
+                                            <span class="tag">coming-of-age</span>
+                                        </div>
+                                    </div>
+                                    <div id="mood-3" class="tab-panel">
+                                        <div class="mood-container">
+                                            <i class="fas fa-eye mood-icon"></i>
+                                            <span class="mood-text">Quirky & Dark</span>
+                                        </div>
+                                    </div>
+                                    <div id="reasoning-3" class="tab-panel">
+                                        <p class="reasoning-text">
+                                            Mild violence and dark humor appropriate for teens. Gothic aesthetic and supernatural elements balanced with comedy.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Sample 4: The Crown -->
+                    <div class="sample-card">
+                        <div class="sample-header">
+                            <div class="sample-info">
+                                <h3 class="sample-title">The Crown S1</h3>
+                                <p class="sample-summary">
+                                    Chronicles the reign of Queen Elizabeth II, exploring the personal and political challenges of the British Royal Family in the 1940s-50s.
+                                </p>
+                            </div>
+                            <div class="sample-badges">
+                                <span class="rating-badge">TV-MA</span>
+                                <span class="genre-badge">Historical Drama</span>
+                            </div>
+                        </div>
+                        <div class="sample-content">
+                            <div class="tabs">
+                                <div class="tab-buttons">
+                                    <button class="tab-button active" data-tab="tags-4">Tags</button>
+                                    <button class="tab-button" data-tab="mood-4">Mood</button>
+                                    <button class="tab-button" data-tab="reasoning-4">Analysis</button>
+                                </div>
+                                <div class="tab-content">
+                                    <div id="tags-4" class="tab-panel active">
+                                        <div class="tags-container">
+                                            <span class="tag">period piece</span>
+                                            <span class="tag">royal family</span>
+                                            <span class="tag">political drama</span>
+                                            <span class="tag">historical events</span>
+                                            <span class="tag">British culture</span>
+                                            <span class="tag">biographical</span>
+                                        </div>
+                                    </div>
+                                    <div id="mood-4" class="tab-panel">
+                                        <div class="mood-container">
+                                            <i class="fas fa-eye mood-icon"></i>
+                                            <span class="mood-text">Sophisticated & Dramatic</span>
+                                        </div>
+                                    </div>
+                                    <div id="reasoning-4" class="tab-panel">
+                                        <p class="reasoning-text">
+                                            Mature themes including political intrigue, marital issues, and historical events require adult understanding.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Sample 5: Money Heist -->
+                    <div class="sample-card">
+                        <div class="sample-header">
+                            <div class="sample-info">
+                                <h3 class="sample-title">Money Heist (La Casa de Papel)</h3>
+                                <p class="sample-summary">
+                                    A criminal mastermind leads a team of uniquely skilled robbers in an elaborate heist at the Royal Mint of Spain.
+                                </p>
+                            </div>
+                            <div class="sample-badges">
+                                <span class="rating-badge">TV-MA</span>
+                                <span class="genre-badge">Crime Thriller</span>
+                            </div>
+                        </div>
+                        <div class="sample-content">
+                            <div class="tabs">
+                                <div class="tab-buttons">
+                                    <button class="tab-button active" data-tab="tags-5">Tags</button>
+                                    <button class="tab-button" data-tab="mood-5">Mood</button>
+                                    <button class="tab-button" data-tab="reasoning-5">Analysis</button>
+                                </div>
+                                <div class="tab-content">
+                                    <div id="tags-5" class="tab-panel active">
+                                        <div class="tags-container">
+                                            <span class="tag">heist</span>
+                                            <span class="tag">Spanish content</span>
+                                            <span class="tag">anti-hero</span>
+                                            <span class="tag">resistance</span>
+                                            <span class="tag">complex narrative</span>
+                                            <span class="tag">international</span>
+                                        </div>
+                                    </div>
+                                    <div id="mood-5" class="tab-panel">
+                                        <div class="mood-container">
+                                            <i class="fas fa-eye mood-icon"></i>
+                                            <span class="mood-text">Intense & Strategic</span>
+                                        </div>
+                                    </div>
+                                    <div id="reasoning-5" class="tab-panel">
+                                        <p class="reasoning-text">
+                                            Violence, strong language, and complex adult themes. Political undertones and criminal activity require mature audience.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Comparative Analysis -->
+    <section id="analysis" class="analysis-section">
+        <div class="container">
+            <div class="section-content">
+                <h2 class="section-title">Comparative Content Analysis</h2>
+                <p class="section-description">
+                    Side-by-side comparison showcasing consistent tagging methodology across different content types
+                </p>
+
+                <div class="analysis-card">
+                    <div class="table-container">
+                        <table class="analysis-table">
+                            <thead>
+                                <tr>
+                                    <th>Title</th>
+                                    <th>Genre</th>
+                                    <th>Primary Tags</th>
+                                    <th>Age Rating</th>
+                                    <th>Mood</th>
+                                    <th>Target Appeal</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td class="title-cell">Stranger Things</td>
+                                    <td><span class="genre-badge-small">Sci-Fi Horror</span></td>
+                                    <td>supernatural, 80s, kids</td>
+                                    <td><span class="rating-badge-small tv-14">TV-14</span></td>
+                                    <td>Dark & Nostalgic</td>
+                                    <td>Broad family appeal</td>
+                                </tr>
+                                <tr>
+                                    <td class="title-cell">Squid Game</td>
+                                    <td><span class="genre-badge-small">Thriller Drama</span></td>
+                                    <td>survival, violence, social commentary</td>
+                                    <td><span class="rating-badge-small tv-ma">TV-MA</span></td>
+                                    <td>Intense & Disturbing</td>
+                                    <td>Adult psychological thriller</td>
+                                </tr>
+                                <tr>
+                                    <td class="title-cell">Wednesday</td>
+                                    <td><span class="genre-badge-small">Comedy Horror</span></td>
+                                    <td>gothic, teen, detective</td>
+                                    <td><span class="rating-badge-small tv-14">TV-14</span></td>
+                                    <td>Quirky & Dark</td>
+                                    <td>Teen and young adult</td>
+                                </tr>
+                                <tr>
+                                    <td class="title-cell">The Crown</td>
+                                    <td><span class="genre-badge-small">Historical Drama</span></td>
+                                    <td>period, royal, political</td>
+                                    <td><span class="rating-badge-small tv-ma">TV-MA</span></td>
+                                    <td>Sophisticated</td>
+                                    <td>Adult prestige drama</td>
+                                </tr>
+                                <tr>
+                                    <td class="title-cell">Money Heist</td>
+                                    <td><span class="genre-badge-small">Crime Thriller</span></td>
+                                    <td>heist, Spanish, anti-hero</td>
+                                    <td><span class="rating-badge-small tv-ma">TV-MA</span></td>
+                                    <td>Intense & Strategic</td>
+                                    <td>International thriller</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Methodology -->
+    <section id="methodology" class="methodology-section">
+        <div class="container">
+            <div class="section-content">
+                <h2 class="section-title">My Tagging Methodology</h2>
+
+                <div class="methodology-grid">
+                    <div class="methodology-card">
+                        <div class="methodology-header">
+                            <i class="fas fa-award methodology-icon"></i>
+                            <h3 class="methodology-title">Content Analysis Process</h3>
+                        </div>
+                        <div class="methodology-steps">
+                            <div class="step">
+                                <div class="step-number">1</div>
+                                <div class="step-content">
+                                    <h4 class="step-title">Initial Screening</h4>
+                                    <p class="step-description">
+                                        Watch/review content with focus on narrative structure, themes, and visual elements
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="step">
+                                <div class="step-number">2</div>
+                                <div class="step-content">
+                                    <h4 class="step-title">Genre Classification</h4>
+                                    <p class="step-description">
+                                        Identify primary and secondary genres based on dominant narrative elements
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="step">
+                                <div class="step-number">3</div>
+                                <div class="step-content">
+                                    <h4 class="step-title">Thematic Tagging</h4>
+                                    <p class="step-description">
+                                        Extract key themes, moods, and cultural elements for comprehensive tagging
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="methodology-card">
+                        <div class="methodology-header">
+                            <i class="fas fa-star methodology-icon"></i>
+                            <h3 class="methodology-title">Rating Determination</h3>
+                        </div>
+                        <div class="methodology-steps">
+                            <div class="step">
+                                <div class="step-number">1</div>
+                                <div class="step-content">
+                                    <h4 class="step-title">Content Assessment</h4>
+                                    <p class="step-description">
+                                        Evaluate violence, language, sexual content, and mature themes
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="step">
+                                <div class="step-number">2</div>
+                                <div class="step-content">
+                                    <h4 class="step-title">Audience Consideration</h4>
+                                    <p class="step-description">
+                                        Consider cultural context and target demographic appropriateness
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="step">
+                                <div class="step-number">3</div>
+                                <div class="step-content">
+                                    <h4 class="step-title">Final Rating</h4>
+                                    <p class="step-description">
+                                        Apply consistent rating standards aligned with platform guidelines
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="focus-areas-card">
+                    <h3 class="focus-title">Key Focus Areas</h3>
+                    <div class="focus-grid">
+                        <div class="focus-item">
+                            <h4 class="focus-heading">Narrative Elements</h4>
+                            <p class="focus-description">
+                                Plot structure, character development, dialogue quality, and storytelling techniques
+                            </p>
+                        </div>
+                        <div class="focus-item">
+                            <h4 class="focus-heading">Tonal Analysis</h4>
+                            <p class="focus-description">
+                                Mood, atmosphere, emotional impact, and overall viewing experience
+                            </p>
+                        </div>
+                        <div class="focus-item">
+                            <h4 class="focus-heading">Cultural Context</h4>
+                            <p class="focus-description">
+                                Regional relevance, cultural sensitivity, and international appeal factors
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section">
+        <div class="container">
+            <div class="section-content">
+                <h2 class="section-title">Let's Connect</h2>
+                <p class="section-description">
+                    Ready to bring analytical precision and cultural awareness to your content metadata team. Let's discuss
+                    how I can contribute to your platform's success.
+                </p>
+
+                <div class="contact-grid">
+                    <div class="contact-card">
+                        <i class="fas fa-envelope contact-icon"></i>
+                        <h3 class="contact-title">Email</h3>
+                        <p class="contact-info">conordev0084@gmail.com</p>
+                    </div>
+                    <div class="contact-card">
+                        <i class="fas fa-map-marker-alt contact-icon"></i>
+                        <h3 class="contact-title">Location</h3>
+                        <p class="contact-info">Tashkent, Uzbekistan</p>
+                    </div>
+                    <div class="contact-card">
+                        <i class="fab fa-github contact-icon"></i>
+                        <h3 class="contact-title">Portfolio</h3>
+                        <p class="contact-info">Available on GitHub</p>
+                    </div>
+                </div>
+
+                <div class="contact-buttons">
+                    <button class="btn btn-primary">
+                        <a href="https://t.me/Outsider_Conor" target="_blank" style="text-decoration: none; color: white; font-size: 1em
+                        ;"><i class="fas fa-envelope"></i>Send Message</a>
+                    </button>
+                    <button class="btn btn-secondary">
+                        <i class="fab fa-github"></i>
+                        View on GitHub
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p class="footer-text">
+                © 2024 Toxirov Dilshod. Crafted for Netflix Metadata Rating Analyst Application.
+            </p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
